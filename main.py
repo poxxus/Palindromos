@@ -6,3 +6,8 @@ elif 10<Pal<99:
     print("O número é um palíndromo")
   else:
     print("O número não é um palíndromo")
+
+
+
+
+
