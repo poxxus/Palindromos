@@ -1,18 +1,17 @@
-A = str(1)
-list1 = []
-N = int(input())
-for i in range(0, N-1):
-    A = "-" + A + "-"
-list1.append(A)
-A = "1"
-for i in range(0, N-1):
-    A = "1" + A + "1"
-    while len(A) < (2*N)-2:
-        A = "-" + A + "-"
-    list1.append(A)
-    A = A.replace("-", '')
-print('\n'.join(list1))
+a = str(1)
+list_result = []
+n = int(input())
 
+for i in range(0, n - 1):
+    a = "-" + a + "-"
+list_result.append(a)
+a = "1"
 
+for i in range(0, n - 1):
+    a = "1" + a + "1"
+    while len(a) < (2 * n)-2:
+        a = "-" + a + "-"
+    list_result.append(a)
+    a = a.replace("-", '')
 
-
+print('\n'.join(list_result))

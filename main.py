@@ -1,11 +1,14 @@
-Pal = int(input("Insira um número de 1 a 99: "))
-if Pal<10:
-  print("O número é um palíndromo")
-elif 10<Pal<99:
-  if Pal%11==0:
-    print("O número é um palíndromo")
-  else:
-    print("O número não é um palíndromo")
+a = 9999
+while a != 0:
+    a = int (input())
+    if (a != 0):
+        a1 = a // 1000
+        a  = a % 1000
+        a2 = a // 100
+        a  = a % 100
+        a3 = a // 10
+        a4 = a % 10
+        print ("%d %d %d %d" % (a1, a2, a3, a4))
 
 
 
