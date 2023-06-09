@@ -4,9 +4,9 @@ def maior3():
     c = int(input())
     maior = a
     if b > maior:
-        b = maior
+        maior = b
     if c > maior:
-        c = maior
+        maior = c
     return print(f"O maior inteiro: {maior}")
 
 
