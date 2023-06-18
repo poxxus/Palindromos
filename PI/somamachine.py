@@ -6,7 +6,7 @@ def somamachine():
         numero = float(input())
         acc += numero
         contador += 1
-    print(f"Total: {acc}")
+    print(f"Total: {acc:.2f}")
 
 
 somamachine()
